@@ -25,7 +25,7 @@ SECRET_KEY = '24q_*&tn+5k_*6h6$nsccghwwb#8b%v4i)1h(wd08_02_-(czt'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 LOGGING = {
@@ -44,13 +44,13 @@ LOGGING = {
 
 JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Titans Express Admin",
+    "site_title": "Arctics Express Admin",
 
     # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_header": "Titans Express",
+    "site_header": "Arctics Express",
 
     # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "Titans Express",
+    "site_brand": "Arctics Express",
 
     # Logo to use for your site, must be present in static files, used for brand on top left
     "site_logo": "",
@@ -76,7 +76,7 @@ JAZZMIN_SETTINGS = {
     "welcome_sign": "Welcome Admin!",
 
     # Copyright on the footer
-    "copyright": "Titans Express",
+    "copyright": "Arctics Express",
 }
 
 
@@ -195,9 +195,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 #EMAIL FOR ZOHO
 EMAIL_HOST  = "smtp.zoho.com"
-EMAIL_HOST_USER_TRANSACTION = "logistics@titansexpress.com"
-EMAIL_HOST_USER_LOGISTICS = "logistics@titansexpress.com"
-EMAIL_HOST_USER_SUPPORT = "support@titansexpress.com"
+EMAIL_HOST_USER_TRANSACTION = "logistics@arcticxpress.com"
+EMAIL_HOST_USER_LOGISTICS = "logistics@arcticxpress.com"
+EMAIL_HOST_USER_SUPPORT = "support@arcticxpress.com"
 PASSWORD = "!@pdt7gu123!!X"
 
 #TAWKTO
@@ -226,13 +226,13 @@ STATICFILES_DIRS = [
 os.path.join(BASE_DIR,"static")
 ]
 
-SITE_NAME = "Titan Express"
+SITE_NAME = "Arctic Express"
 
 
 if DEBUG : 
     SITE_URL = "http://127.0.0.4:4000"
 else :
-    SITE_URL  = "https://www.titansexpress.com"  
+    SITE_URL  = "https://www.arcticxpress.com"  
 
 
 STATIC_ROOT = os.path.join(BASE_DIR,"asset")
