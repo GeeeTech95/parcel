@@ -143,6 +143,8 @@ AUTH_USER_MODEL = 'Users.User'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+#render pgadmin password 
+#6ca473a55c344e59b4b2d980c2a4f41e
 
 if DEBUG :
     DATABASES = {
